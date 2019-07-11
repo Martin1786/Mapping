@@ -1,2 +1,2 @@
 # Mapping
-Mappng projects
+Mapping projects
