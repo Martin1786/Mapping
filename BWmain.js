@@ -2,14 +2,14 @@ var timeline;
 $(document).ready(function () {
 	timelime = new MapTimeline(700, 1860, 2011, 
 		[ {
-			"early" : 1964, "late" : 1965, "imgurl" : 'images/1964BWMap1.jpg',
+			"early" : 1964, "late" : 1965, "imgurl" : 'BWimages/1964BWMap1.jpg',
 			"ne lat" : 50.95576388888889,
 			"ne long" : -1.206697222222222,
 			"sw lat" : 50.95136944444445,
 			"sw long" : -1.218241666666667
 		},
 			{
-			"early" : 1868, "late" : 1869, "imgurl" : 'images/1868BWMap1.jpg',
+			"early" : 1868, "late" : 1869, "imgurl" : 'BWimages/1868BWMap1.jpg',
 			"ne lat" : 50.95593453395424,
 			"ne long" : -1.208401499272319,
 			"sw lat" : 50.95142053283247,
