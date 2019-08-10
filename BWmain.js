@@ -16,7 +16,7 @@ $(document).ready(function () {
 			"sw long" : -1.219863961175154
 		},
 			{
-			"early" : 1896, "late" : 1897, "imgurl" : 'images/1896BWMap3.jpg',
+			"early" : 1896, "late" : 1898, "imgurl" : 'images/1896BWMap3.jpg',
 			"ne lat" : 50.95477330758662,
 			"ne long" : -1.20719908116136,
 			"sw lat" : 50.95051545306492,
