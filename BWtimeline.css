@@ -1,0 +1,50 @@
+/* The Google Maps control */
+#map_canvas {
+	height: 620px;
+	margin: 5px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	background: url("images/slider-handle-vertical.png") no-repeat scroll 0 0 transparent;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    background: url("images/slider-handle-horizontal.png") no-repeat scroll 0 0 transparent;
+}
+.date_slider {   border-color: green;
+}
+
+.timeline {
+	background-color: #eeeeee;
+	margin-top: 5px;
+}
+
+/* Represents a map in timeline */
+.date_range {
+	height: 20px;
+}
+
+/* Map when selected for display */
+.date_range_active {
+	background-color: #00ff00;
+}
+
+/* Map when not selected for display */
+.date_range_inactive {
+	background-color: #aaffaa;
+}
+
+/* Shaded areas on timeline showing unselected region */
+.carat {
+	position: absolute;
+	opacity : 0.5;
+	width : 2px;
+	background-color: #000000;
+}
+
+/* Shaded areas on timeline showing unselected region */
+.marker {
+	position: absolute;
+	opacity : 0.5;
+	width : 1px;
+	background-color: #000000;
+}
+
