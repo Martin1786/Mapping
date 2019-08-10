@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+                <title>Learning HTML</title>
+                <meta name="description" content="My first HTML page">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" type="text/css" href="BWindex.css">
+                <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>      
+                
+            </head>
+        <body>
+        
+            <header>
+                    This is the header
+            </header>
+            <section>
+                <main>
+                    <article>
+                            <div id="app">
+                                    <span v-if="seen"> {{message}} </span>
+                            </div>
+                    </article>
+                    <article>
+                            <div id="app-2">
+                                    <span v-bind:title="message">
+                                      Hover your mouse over me for a few seconds
+                                      to see my dynamically bound title!
+                                    </span>
+                            </div>
+                    </article>                 
+                    <article>
+                            <div id="app-4">
+                                    <ol>
+                                      <li v-for="todo in todos">
+                                        {{ todo.text }}
+                                      </li>
+                                    </ol>
+                                  </div>
+                    </article>
+                </main>
+                <aside>
+                    The aside
+                </aside>
+            </section>
+            <footer>
+                This is the footer
+            </footer>
+            
+        <script src="BWImageMap.js"></script>
+         
+    </body>
+</html>
