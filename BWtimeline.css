@@ -4,10 +4,10 @@
 	margin: 5px;
 }
 .ui-slider-vertical .ui-slider-handle {
-	background: url("images/slider-handle-vertical.png") no-repeat scroll 0 0 transparent;
+	background: url("BWimages/slider-handle-vertical.png") no-repeat scroll 0 0 transparent;
 }
 .ui-slider-horizontal .ui-slider-handle {
-    background: url("images/slider-handle-horizontal.png") no-repeat scroll 0 0 transparent;
+    background: url("BWimages/slider-handle-horizontal.png") no-repeat scroll 0 0 transparent;
 }
 .date_slider {   border-color: green;
 }
