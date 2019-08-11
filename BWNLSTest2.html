@@ -34,8 +34,8 @@ var mapMinZoom = 5;
 var mapMaxZoom = 14;
 
 var mapBounds = new google.maps.LatLngBounds(
-    new google.maps.LatLng(-50.9547691, 1.2120295),
-    new google.maps.LatLng(50.942607, -1.202695));
+    new google.maps.LatLng(-90, -180),
+    new google.maps.LatLng(90, 180));
 
 var nlsmap = new google.maps.ImageMapType({
 		getTileUrl:function(tile,zoom) {
